@@ -15,7 +15,7 @@ jobs:
       - run: yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: 9.1.0
+                 gradle-version: 9.3.1
       - run: echo "clerk.publishableKey=${{ secrets.CLERK_PUBLISHABLE_KEY }}" > local.properties
       - run: gradle assembleDebug --stacktrace
       - uses: actions/upload-artifact@v4
