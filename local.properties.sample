@@ -1,0 +1,4 @@
+# Скопируйте этот файл в local.properties и вставьте ключ из Clerk Dashboard -> API keys
+# (Publishable Key, начинается с pk_test_). Секретный ключ (sk_...) сюда НЕ вставляйте.
+sdk.dir=/path/to/Android/sdk
+clerk.publishableKey=pk_test_xxxxxxxxxxxxxxxxxxxxxxxx
